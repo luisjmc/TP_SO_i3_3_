@@ -1,33 +1,15 @@
-enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
-        inet6 fe80::cdb7:6dde:2b7c:46ac  prefixlen 64  scopeid 0x20<link>
-        ether 08:00:27:82:2f:7e  txqueuelen 1000  (Ethernet)
-        RX packets 65617  bytes 90922765 (90.9 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 6750  bytes 449415 (449.4 KB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+(Leonel Monges 12:04 eth0 Link encap:Ethernet HWaddr 02:73:34:D3:DF:B6
+inet addr:10.5.30.188 Bcast:10.5.255.255 Mask:255.255.0.0
+UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
+RX packets:19 errors:0 dropped:0 overruns:0 frame:0
+TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+collisions:0 txqueuelen:1000
+RX bytes:5228 (5.1 KiB) TX bytes:1282 (1.2 KiB)
 
-lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
-        inet 127.0.0.1  netmask 255.0.0.0
-        inet6 ::1  prefixlen 128  scopeid 0x10<host>
-        loop  txqueuelen 1000  (Bucle local)
-        RX packets 261  bytes 22165 (22.1 KB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 261  bytes 22165 (22.1 KB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-11:00
-eth0      Link encap:Ethernet  HWaddr 02:D7:CA:B2:C5:6A
-          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
-          RX packets:1 errors:0 dropped:0 overruns:0 frame:0
-          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000
-          RX bytes:396 (396.0 B)  TX bytes:0 (0.0 B)
- 
-lo        Link encap:Local Loopback
-          inet addr:127.0.0.1  Mask:255.0.0.0
-          UP LOOPBACK RUNNING  MTU:65536  Metric:1
-          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
-          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000
-          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
-11:46
+lo Link encap:Local Loopback
+inet addr:127.0.0.1 Mask:255.0.0.0
+UP LOOPBACK RUNNING MTU:65536 Metric:1
+RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+collisions:0 txqueuelen:1000
+RX bytes:0 (0.0 B) TX bytes:0 (0.0 B) )
